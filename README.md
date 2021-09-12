@@ -44,7 +44,7 @@ homepage
 
 #### Screenshot(s) van de tweede pagina (small screen):
 Informatiepagina
-<img src="images/informatiepagina.jpg" width="375px" alt="omschrijving van de pagina">
+<img src="images/informatiepage.jpg" width="375px" alt="omschrijving van de pagina">
  
 </details>
 
