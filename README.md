@@ -78,18 +78,12 @@ Informatiepagina
 <summary>uitwerken voor 1e voortgang</summary>
 
 ### Stand van zaken
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+dit ging goed: html maken, semantisch correct.
+dit is moeilijk: het aanroepen van elementen in de CSS. Geen id of class gebruiken. 
 
-
-### Agenda voor meeting
-samen met je groepje opstellen
-
-| student 1      | student 2          | student 3    | student 4        |
-| ---            | ---                | ---          | ---              |
-| dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-| en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-| ...            | ...                | ...          | ...              |
-
+<img src="images/pagina1-screenshot.jpg" width="375px" alt="screenshot html">
+<img src="images/pagina1-screenshot2.jpg" width="375px" alt="screenshot html">
+<img src="images/pagina2-screenshot.jpg" width="375px" alt="screenshot html">
 
 ### Verslag van meeting
 hier na afloop snel de uitkomsten van de meeting vastleggen
