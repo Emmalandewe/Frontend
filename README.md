@@ -83,9 +83,9 @@ wat ging er niet goed: de elementen aanroepen in de CSS.
 
 
 Screenshots HTML pagina:
-<img src="images/pagina1-screenshot.jpg" width="375px" alt="screenshot HTML">
-<img src="images/pagina1-screenshot2.jpg" width="375px" alt="screenshot HTML">
-<img src="images/pagina2-screenshot.jpg" width="375px" alt="screenshot HTML">
+<img src="images/pagina1-screenshot.png" width="375px" alt="screenshot HTML">
+<img src="images/pagina1-screenshot2.png" width="375px" alt="screenshot HTML">
+<img src="images/pagina2-screenshot.png" width="375px" alt="screenshot HTML">
 
 
 ### Verslag van meeting
