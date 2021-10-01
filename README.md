@@ -44,7 +44,7 @@ homepage
 
 #### Screenshot(s) van de tweede pagina (small screen):
 Informatiepagina
-<img src="images/informatiepage.jpg" width="375px" alt="omschrijving van de pagina">
+<img src="images/informatiepagina.jpg" width="375px" alt="omschrijving van de pagina">
  
 </details>
 
@@ -78,12 +78,18 @@ Informatiepagina
 <summary>uitwerken voor 1e voortgang</summary>
 
 ### Stand van zaken
-dit ging goed: html maken, semantisch correct.
-dit is moeilijk: het aanroepen van elementen in de CSS. Geen id of class gebruiken. 
+hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
 
-<img src="images/pagina1-screenshot.jpg" width="375px" alt="screenshot html">
-<img src="images/pagina1-screenshot2.jpg" width="375px" alt="screenshot html">
-<img src="images/pagina2-screenshot.jpg" width="375px" alt="screenshot html">
+
+### Agenda voor meeting
+samen met je groepje opstellen
+
+| student 1      | student 2          | student 3    | student 4        |
+| ---            | ---                | ---          | ---              |
+| dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
+| en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
+| ...            | ...                | ...          | ...              |
+
 
 ### Verslag van meeting
 hier na afloop snel de uitkomsten van de meeting vastleggen
