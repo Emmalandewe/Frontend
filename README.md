@@ -73,24 +73,17 @@ Informatiepagina
 
 
 ## Voortgang 1 (week 2)
-
 <details>
 <summary>uitwerken voor 1e voortgang</summary>
 
 ### Stand van zaken
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+wat ging er goed: een semantisch correctie HTML schrijven
+Wat ging er minder goed: de elementen aanroepen in CSS. 
 
-
-### Agenda voor meeting
-samen met je groepje opstellen
-
-| student 1      | student 2          | student 3    | student 4        |
-| ---            | ---                | ---          | ---              |
-| dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-| en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-| ...            | ...                | ...          | ...              |
-
-
+<img src="images/pagina1-screenshot.jpg" width="375px" alt="Screenshot HTML">
+<img src="images/pagina1-screenshot2.jpg" width="375px" alt="Screenshot HTML">
+<img src="images/pagina2-screenshot.jpg" width="375px" alt="Screenshot HTML">
+ 
 ### Verslag van meeting
 hier na afloop snel de uitkomsten van de meeting vastleggen
 
