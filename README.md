@@ -44,7 +44,7 @@ homepage
 
 #### Screenshot(s) van de tweede pagina (small screen):
 Informatiepagina
-<img src="images/informatiepagina.jpg" width="375px" alt="omschrijving van de pagina">
+<img src="images/informatiepage.jpg" width="375px" alt="omschrijving van de pagina">
  
 </details>
 
@@ -73,17 +73,21 @@ Informatiepagina
 
 
 ## Voortgang 1 (week 2)
+
 <details>
 <summary>uitwerken voor 1e voortgang</summary>
 
 ### Stand van zaken
-wat ging er goed: een semantisch correctie HTML schrijven
-Wat ging er minder goed: de elementen aanroepen in CSS. 
+Wat ging er goed: correct semantische HTML schrijven. 
+wat ging er niet goed: de elementen aanroepen in de CSS.
 
-<img src="images/pagina1-screenshot.jpg" width="375px" alt="Screenshot HTML">
-<img src="images/pagina1-screenshot2.jpg" width="375px" alt="Screenshot HTML">
-<img src="images/pagina2-screenshot.jpg" width="375px" alt="Screenshot HTML">
- 
+
+Screenshots HTML pagina:
+<img src="images/pagina1-screenshot.jpg" width="375px" alt="screenshot HTML">
+<img src="images/pagina1-screenshot2.jpg" width="375px" alt="screenshot HTML">
+<img src="images/pagina2-screenshot.jpg" width="375px" alt="screenshot HTML">
+
+
 ### Verslag van meeting
 hier na afloop snel de uitkomsten van de meeting vastleggen
 
