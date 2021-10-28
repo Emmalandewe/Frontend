@@ -3,113 +3,49 @@
   box-sizing:border-box;  
 }
 
+/* algemene styling */ 
+html body{
+  height: 100%;
+}
+
 body {
   font-family: "Exo BNNVARA", Verdana, sans-serif;
   overflow-x: hidden;
-}
-
-header {
-  background-color: rgba(0, 0, 0, 0.199);
-}
-
-main{
-  background-color: #f5f4f4;
+  margin: 0;
 }
 
 ul{
   list-style-type: none;
-}
-
-
-footer{
-  color: white;
-  background-color: rgb(230, 0, 0);
-}
-
-iframe{
-  width: 500px;
-  height: 315px;
-}
-
-/* header */
-
-header ul li img {
-  width: 30px;
-}
-
-header nav li a img{
-  width: 50px;
-}
-
-/* header foto */
-header div img {
-  width: 100%;
-}
-
-header{
-  color: white;
-}
-
-header div a:nth-of-type(1){
   text-decoration: none;
-  color: white;
-  background-color: red;
-  padding: 0.6em;
-}
-
-header div a:nth-of-type(2){
-  text-decoration: none;
-  color: white;
-  padding: 0.6em;
-  border-style: solid;
-  border-color: white;
-}
-
-header div h1{
-  Font-size: 20px;
-}
-
-/* footer*/
-
-footer li img{
-  width: 25px;
 }
 
 h3{
   font-size: 16px;
 }
 
-main section:nth-of-type(1){
-  background-color: rgb(16, 16, 16);
-}
-
-main section:nth-of-type(1) h2{
-color: white;
-}
-
-/* padding aan section*/
-
-section{
-  padding: 0em;
+/* header */
+header{
   margin: 0;
+  color: white;
+  background-image: url('../images/headerimage.jpeg');
+  height: 500px;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+} 
+
+header div{
+  position: absolute;
+  bottom: 0px;
+  margin: 20px;
 }
 
-/* hoogte articles ontdek bnnvara*/
-section ul li article{
-  height: 17em;
+header div h1{
+  Font-size: 20px;
 }
 
-/* meeschalen img*/
-section ul li article img {
-  width: 100%;
-}
+/* header nav*/
 
-/* articles ontdek bnnvara */
-main section article{
-  background-color: white;
-}
-
-/* FLEXBOX NAVIGATIE */
 nav ul {
   display: flex;
   gap: 1em;
@@ -120,8 +56,122 @@ nav ul:nth-of-type(1) li:nth-of-type(2) {
   Margin-right: auto;
 }
 
-/* FLEXBOX ONTDEK BNNVARA */
+header nav li a img{
+  width: 20px;
+}
 
+header nav li:nth-child(1) a img{
+  width: 50px;
+}
+
+nav{
+  position: -webkit-sticky;
+  position: sticky;
+  background-color: rgba(0, 0, 0, 0.500);
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+}
+
+header div img{
+  position: relative;
+  z-index: -1;
+}
+
+/* header buttons */
+header div ul{
+  display: flex;
+  gap: 1em;
+  padding: 0;
+  flex-direction: column;
+}
+
+header div li:nth-of-type(1){
+  background-color: red;
+  padding: 0.6em;
+  width: 130px;
+  text-align: center;
+}
+
+header div li:nth-of-type(1) a{
+  text-decoration: none;
+  color: white;
+}
+
+header div li:nth-of-type(2){
+  padding: 0.6em;
+  border-style: solid;
+  border-color: white;
+  width: 130px;
+  text-align: center;
+}
+
+header div li:nth-of-type(2) a{
+  text-decoration: none;
+  color: white;
+}
+
+/* main */
+main{
+  background-color: #f5f4f4;
+}
+
+.bodymargin{
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+main section:nth-of-type(1){
+  background-color: rgb(16, 16, 16);
+}
+
+main section:nth-of-type(1) h2{
+color: white;
+}
+
+main section:nth-of-type(2) p{
+  text-align: center;
+  background-color: green;
+}
+
+main div article img {
+  width: 100%;
+}
+
+/* main grootte lettertype*/
+main article h2{
+  font-size: 20px;
+}
+
+main article p{
+  font-size: 14px;
+} 
+
+/* styling section*/
+section{
+  padding: 0em;
+  margin: 0;
+}
+
+main section article{
+  background-color: white;
+}
+
+section ul li article{
+  height: 17em;
+}
+
+section ul li article img {
+  width: 100%;
+}
+
+/* plaatjes in de section*/ 
+main section article img{
+  width: 100px;
+}
+
+/* flexbox gedeelte BNNVARA */
 main section ul{
   display: flex;
   overflow-x: auto;
@@ -152,28 +202,29 @@ main section ul li article img{
   order: 0;
 }
 
-/* social media iconen*/
-footer div:nth-of-type(3) ul{
-  display: flex;
-  gap: 1em;
+/* main 2e pagina */ 
+iframe{
+  width: 500px;
+  height: 315px;
 }
 
-footer div:nth-of-type(3) ul li img{
-  margin: 0.3em;
+/* footer */ 
+footer{
+  color: white;
+  background-color: rgb(230, 0, 0);
 }
 
-footer div:nth-of-type(3) ul li{
-  border-style: solid;
-  border-width: 0.02em;
-  border-color: white;
-}
+/* ANBI foto */
 
-/* ANBI foto*/
 footer img{
   width: 40%;
 }
 
-/*footer social media*/
+footer li img{
+  width: 25px;
+}
+
+/* social media iconen footer*/
 footer section ul{
   display: flex;
   gap: 0.5em;
@@ -197,32 +248,62 @@ footer section ul li a{
   text-decoration: none;
 }
 
-/* artikelen index.html*/
-
-main section article img{
-  width: 100px;
+footer div:nth-of-type(3) ul{
+  display: flex;
+  gap: 1em;
 }
 
-/*sfeerbeeld BNN*/
-main article img{
-  width: 100%;
+footer div:nth-of-type(3) ul li img{
+  margin: 0.3em;
 }
 
-main article h2{
-  font-size: 20px;
+footer div:nth-of-type(3) ul li{
+  border-style: solid;
+  border-width: 0.02em;
+  border-color: white;
 }
 
-main article p{
-  font-size: 14px;
+
+/* responsinve tablet */
+@media (min-width: 550px) {
+ 
+  header{
+    height: 400px;
+  }
+
+  header div ul{
+    display: flex;
+    gap: 1.5em;
+    padding: 0;
+    flex-direction: row;
+  }
+
+  main article{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2em;
+  }
+
+  main section ul li{
+    flex-basis: 27%;
+    flex-shrink: 0;
+  }
+  
+  main section ul li article {
+    flex-direction: row;
+  }
 }
 
-main article p:nth-of-type(2){
-  font-style: ;
-}
 
-/* artikelen */
+/* responsive desktop */ 
+@media (min-width: 1000px) {
+  header{
+    height: 400px;
+  }
 
-main section:nth-of-type(2) p{
-  text-align: center;
-  background-color: green;
+  .bodymargin{
+    margin-left: 15%;
+    margin-right: 15%;
+  }
+
 }

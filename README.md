@@ -91,10 +91,9 @@ Screenshots HTML pagina:
 ### Verslag van meeting
 hier na afloop snel de uitkomsten van de meeting vastleggen
 
-- punt 1
-- punt 2
-- nog een punt
-- ...
+- Zorg dat je CSS er netjes uit ziet zodat je makkelijk dingen terug kan vinden.
+- Begin met het maken van flexbox en daarna pas de styling
+- Nog veel werk te doen. 
 
 </details>
 
@@ -108,17 +107,16 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 <summary>uitwerken voor 2e voortgang</summary>
 
 ### Stand van zaken
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+Ik heb grote stappen gemaakt op het gebied van CSS. alles staat netter geordend en is overzichtelijker. 
+Ik ben begonnen met het implementeren van Flexbox en dat is goed gelukt. De site begint steeds meer op de echte site te lijken. 
 
+### vragen voor tijdens de voortgang: 
+- omdat ik position absolute heb gedaan wil de header niet meer sticky blijven? 
+- moeten de opdrachten ook in de bronnenlijst
+- .bodymargin -> mag dit? (Omdat we margin mee wouden geven aan de body, maar er stond nog een element in die geen margin moest hebben. En dat moet je al je verwijzingen aanpassen)
 
 ### Agenda voor meeting
 samen met je groepje opstellen
-
-| student 1      | student 2          | student 3    | student 4        |
-| ---            | ---                | ---          | ---              |
-| dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-| en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-| ...            | ...                | ...          | ...              |
 
 
 ### Verslag van meeting
@@ -142,6 +140,7 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 
 ### Bevindingen
 Lijst met je bevindingen die in de test naar voren kwamen:
+- Niet alles is klikbaar wat klikbaar moet zijn. 
 
 #### Titel eerste bevinding
 Hier korte omschrijving (met indien nodig een afbeelding)
@@ -229,8 +228,20 @@ hier screenshot(s) van je eindresultaat
 
 Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
 
-1. bron 1
-2. bron 2
-3. ...
+1. https://www.w3schools.com/cssref/pr_list-style-type.asp 
+2. https://gathering.tweakers.net/forum/list_messages/348586 
+3. https://www.w3schools.com/cssref/pr_class_position.asp
+4. https://css-tricks.com/snippets/css/a-guide-to-flexbox/ 
+5. https://css-tricks.com/position-sticky-2/ 
+6. https://www.designcise.com/web/tutorial/how-to-fix-issues-with-css-position-sticky-not-working 
+7. https://cssreference.io/property/flex-direction/ 
+8. https://www.w3schools.com/cssref/pr_border-style.asp 
+9. https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Ordering_Flex_Items 
+10. https://www.collinsdictionary.com/dictionary/english/fr#:~:text=1.,abbreviation%20for%20French%20or%20%2C%20franc.&text=Fr%20is%20a%20written%20abbreviation%20for%20father%20when%20it%20is,name%20of%20a%20Catholic%20priest. 
+11. https://css-tricks.com/snippets/css/complete-guide-grid/ 
+
+
+
+
 
 </details>
