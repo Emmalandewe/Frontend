@@ -118,6 +118,8 @@ Ik ben begonnen met het implementeren van Flexbox en dat is goed gelukt. De site
 ### voortgang in foto's
 <img src="images/voortgang2-css.jpg" width="375px" alt="screenshot CSS"> mediaquery's zijn toegevoegd aan de CSS. Dit maakt de site meer responsive. 
 
+<img src="images/javascript-microinteractie.jpg" width="375px" alt="screenshot CSS"> de microinteractie is aan de site toegevoegd. 
+
 
 ### Verslag van meeting
 hier na afloop snel de uitkomsten van de meeting vastleggen

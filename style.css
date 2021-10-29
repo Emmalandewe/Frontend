@@ -348,6 +348,23 @@ footer > section ul {
   padding-left: 5%;
 }
 
+/* microinteractie button*/
+
+footer button{
+  padding: 0.6em;
+  border: 0.15em solid;
+  border-color: green;
+  background-color: white;
+  color: green;
+  width: 250px;
+}
+
+.groen header div ul li:nth-of-type(1){
+  background-color: green;
+}
+
+
+
 /* social media iconen footer*/
 footer section:nth-of-type(1) ul{
   display: flex;
