@@ -113,10 +113,10 @@ Ik ben begonnen met het implementeren van Flexbox en dat is goed gelukt. De site
 ### vragen voor tijdens de voortgang: 
 - omdat ik position absolute heb gedaan wil de header niet meer sticky blijven? 
 - moeten de opdrachten ook in de bronnenlijst
-- .bodymargin -> mag dit? (Omdat we margin mee wouden geven aan de body, maar er stond nog een element in die geen margin moest hebben. En dat moet je al je verwijzingen aanpassen)
+- .bodymargin -> mag dit? (Omdat we margin mee wouden geven aan de body, maar er stond nog een element in die geen margin moest hebben. En dat moet je al je verwijzingen aanpassen). 
 
-### Agenda voor meeting
-samen met je groepje opstellen
+### voortgang in foto's
+<img src="images/voortgang2-css.jpg" width="375px" alt="screenshot CSS"> mediaquery's zijn toegevoegd aan de CSS. Dit maakt de site meer responsive. 
 
 
 ### Verslag van meeting

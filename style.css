@@ -37,36 +37,27 @@ header{
 header div{
   position: absolute;
   bottom: 0px;
-  margin: 20px;
+  margin-left: 5%;
+  margin-bottom: 20px;
 }
 
 header div h1{
-  Font-size: 20px;
+  Font-size: 24px;
+}
+
+header div p{
+  font-size: 14px;
 }
 
 /* header nav*/
-
-nav ul {
-  display: flex;
-  gap: 1em;
-  padding: 0;
-}
-
-nav ul:nth-of-type(1) li:nth-of-type(2) {
-  Margin-right: auto;
-}
-
-header nav li a img{
-  width: 20px;
-}
-
-header nav li:nth-child(1) a img{
-  width: 50px;
-}
-
 nav{
-  position: -webkit-sticky;
   position: sticky;
+  position: -webkit-sticky;
+}
+
+header nav{
+  margin-bottom: 0;
+  padding: 1px 0 1px 0;
   background-color: rgba(0, 0, 0, 0.500);
   position: absolute;
   left: 0;
@@ -74,15 +65,57 @@ nav{
   top: 0;
 }
 
+nav ul {
+  display: flex;
+  gap: 1em;
+  padding: 0 0.5em 0 0.5em;
+}
+
+header nav ul li a{
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+nav ul:nth-of-type(1) li:nth-of-type(2) {
+  Margin-right: auto;
+}
+
+header nav ul li a img{
+  width: 20px;
+}
+
+header nav li:nth-child(1) a img{
+  width: 50px;
+}
+
 header div img{
   position: relative;
   z-index: -1;
 }
 
+/* sluit je aan button */
+header nav ul li:nth-of-type(3){
+  visibility: hidden;
+  background-color: red;
+  padding: 0.2em;
+  width: 120px;
+  text-align: center;
+}
+
+
+header nav ul li:nth-of-type(3) a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 12px;
+}
+
 /* header buttons */
 header div ul{
   display: flex;
-  gap: 1em;
+  gap: 0.5em;
   padding: 0;
   flex-direction: column;
 }
@@ -97,11 +130,13 @@ header div li:nth-of-type(1){
 header div li:nth-of-type(1) a{
   text-decoration: none;
   color: white;
+  font-weight: bold;
+  font-size: 15px;
 }
 
 header div li:nth-of-type(2){
   padding: 0.6em;
-  border-style: solid;
+  border: 0.15em solid;
   border-color: white;
   width: 130px;
   text-align: center;
@@ -110,29 +145,45 @@ header div li:nth-of-type(2){
 header div li:nth-of-type(2) a{
   text-decoration: none;
   color: white;
+  font-weight: bold;
+  font-size: 15px;
 }
 
-/* main */
+/*hover buttons*/
+header div li:nth-of-type(1):hover{
+  background-color: rgb(224, 58, 58);
+}
+
+header div li:nth-of-type(2):hover{
+  background-color: white;
+}
+
+header div li:nth-of-type(2) a:hover{
+  color: black;
+}
+
+/* main pagina 1*/
 main{
   background-color: #f5f4f4;
 }
 
 .bodymargin{
-  margin-left: 5%;
-  margin-right: 5%;
+  margin: 0 5% 0 5%;
 }
 
 main section:nth-of-type(1){
-  background-color: rgb(16, 16, 16);
+  background-color: #202121;
+  padding: 0.5em 0 0.5em 0;
 }
 
 main section:nth-of-type(1) h2{
 color: white;
+font-size: 18px;
+margin-left: 5%;
 }
 
-main section:nth-of-type(2) p{
-  text-align: center;
-  background-color: green;
+main div > article {
+  padding-top: 1em;
 }
 
 main div article img {
@@ -142,6 +193,7 @@ main div article img {
 /* main grootte lettertype*/
 main article h2{
   font-size: 20px;
+  margin-top: 10px;
 }
 
 main article p{
@@ -204,8 +256,54 @@ main section ul li article img{
 
 /* main 2e pagina */ 
 iframe{
-  width: 500px;
+  width: 90%;
   height: 315px;
+  margin: 0 5% 0 5%;
+}
+
+.pagina2 h1{
+  font-size: 26px;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 0px;
+  padding-top: 15px;
+}
+
+.pagina2 h2{
+  font-size: 16px;
+  font-weight: bold;
+  margin: 0 5% 0 5%;
+}
+
+.pagina2 h5{
+  font-weight:lighter;
+  color: #202121;
+  font-size: 12px;
+  margin-left: 5%;
+}
+
+.pagina2 img{
+  width: 100%;
+}
+
+.pagina2 p{
+  font-size: 14px; 
+  color: #202121;
+  margin-left: 5%;
+  margin-right:5%;
+}
+
+.pagina2 p:nth-of-type(1){
+  font-weight: bold;
+  margin-left: 5%;
+  margin-right: 5%;
+  font-size: 14px;
+}
+
+.pagina2 h6{
+  font-size: 10px;
+  margin-left: 5%;
+  font-weight: lighter;
 }
 
 /* footer */ 
@@ -214,59 +312,135 @@ footer{
   background-color: rgb(230, 0, 0);
 }
 
+footer 
+
 /* ANBI foto */
 
-footer img{
-  width: 40%;
+footer > a img{
+  width: 60px;
 }
 
 footer li img{
   width: 25px;
 }
 
+/*footer foto gedeelte*/
+footer > section:nth-of-type(1){
+  background-image: url('../images/footeruniversum.jpeg');
+  background-size: cover;
+  background-position: center;
+  margin-top: 0.5em;
+  padding-top: 0.5em;
+  padding-bottom: 1.5em;
+}
+
+footer > section h1{
+  font-size: 20px;
+  margin-left: 5%;
+}
+
+footer > section p{
+  font-size: 14px;
+  margin-left: 5%;
+}
+
+footer > section ul {
+  padding-left: 5%;
+}
+
 /* social media iconen footer*/
-footer section ul{
+footer section:nth-of-type(1) ul{
   display: flex;
   gap: 0.5em;
   flex-wrap: wrap;
+
 }
 
-footer section ul li{
+footer section:nth-of-type(1) ul li{
   border-style: solid;
   border-width: 0.04em;
   border-color: white;
-  flex-basis: 10em;
+  flex-basis: 8em;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-footer section ul li a{
-  margin: 0.5em;
-  font-size: 18px;
+footer section:nth-of-type(1) ul li a{
+  margin: 0.2em;
+  font-size: 14px;
   color: white;
   text-decoration: none;
 }
 
-footer div:nth-of-type(3) ul{
-  display: flex;
-  gap: 1em;
+/* linkjes in de footer*/
+footer section:nth-of-type(2) ul{
+  padding-left: 1em;
+  padding-bottom: 1em;
 }
 
-footer div:nth-of-type(3) ul li img{
+footer section:nth-of-type(2) ul li{
+  padding: 0.5em;
+}
+
+footer section:nth-of-type(2) ul li a{
+  text-decoration: none;
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+footer section:nth-of-type(2) ul li a:hover{
+  text-decoration: underline;
+  transition: 5s;
+}
+
+footer section:nth-of-type(2) ul li:nth-of-type(1) a{
+  font-weight: normal;
+  text-decoration: none;
+}
+
+/* linkjes naast elkaar privacy etc */ 
+footer section:nth-of-type(2) ul:nth-of-type(5) {
+  display: flex;
+  gap: 5px;
+  margin: 0px;
+  flex-wrap:wrap;
+}
+
+footer section:nth-of-type(2) ul:nth-of-type(5) li a{
+  font-size: 10px;
+  font-weight: bold;
+}
+
+footer section:nth-of-type(2) ul:nth-of-type(5) li:nth-of-type(4) a{
+  font-size: 8px;
+  font-weight: lighter;
+  padding-top: 0;
+}
+
+/* social media links*/
+footer div ul{
+  display: flex;
+  gap: 1em;
+  margin-left: 0px;
+  padding-left: 5%;
+}
+
+footer div ul li img{
   margin: 0.3em;
 }
 
-footer div:nth-of-type(3) ul li{
+footer div ul li{
   border-style: solid;
   border-width: 0.02em;
   border-color: white;
 }
 
-
 /* responsinve tablet */
 @media (min-width: 550px) {
- 
+  
+  /* styling header*/ 
   header{
     height: 400px;
   }
@@ -278,10 +452,22 @@ footer div:nth-of-type(3) ul li{
     flex-direction: row;
   }
 
+  header nav ul li:nth-of-type(3){
+    visibility: visible;
+  }
+
+  /* main eerste pagina*/
+
   main article{
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 2em;
+    margin-bottom: 10px;
+  }
+
+  main article h2{
+    font-size: 20px;
+    margin-top: 0;
   }
 
   main section ul li{
@@ -292,18 +478,62 @@ footer div:nth-of-type(3) ul li{
   main section ul li article {
     flex-direction: row;
   }
-}
 
+  /* main tweede pagina */ 
+
+  .pagina2 img {
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+  }
+
+  /* footer */ 
+
+  footer section:nth-of-type(1){
+    padding-top: 3em;
+    padding-bottom: 3em;
+  }
+
+  footer > section h1{
+    font-size: 24px;
+  }
+  
+  footer > section p{
+    font-size: 16px;
+  }
+
+  footer section:nth-of-type(1) ul{
+    gap: 1em;
+  }
+  
+  footer section:nth-of-type(1) ul li{
+    border-width: 0.10em;
+    flex-basis: 10em;
+  }
+  
+  footer section:nth-of-type(1) ul li a{
+    margin: 0.5em;
+    font-size: 16px;
+  }
+}
 
 /* responsive desktop */ 
 @media (min-width: 1000px) {
+  /* header*/
   header{
     height: 400px;
   }
+
+  /* main */ 
 
   .bodymargin{
     margin-left: 15%;
     margin-right: 15%;
   }
 
+  /* footer */ 
+  footer section:nth-of-type(1){
+    padding-top: 4em;
+    padding-bottom: 4em;
+  }
 }
