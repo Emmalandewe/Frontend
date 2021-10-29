@@ -116,9 +116,9 @@ Ik ben begonnen met het implementeren van Flexbox en dat is goed gelukt. De site
 - .bodymargin -> mag dit? (Omdat we margin mee wouden geven aan de body, maar er stond nog een element in die geen margin moest hebben. En dat moet je al je verwijzingen aanpassen). 
 
 ### voortgang in foto's
-<img src="images/voortgang2-css.jpg" width="375px" alt="screenshot CSS"> mediaquery's zijn toegevoegd aan de CSS. Dit maakt de site meer responsive. 
+<img src="images/voortgang2-css.png" width="375px" alt="screenshot CSS"> mediaquery's zijn toegevoegd aan de CSS. Dit maakt de site meer responsive. 
 
-<img src="images/javascript-microinteractie.jpg" width="375px" alt="screenshot CSS"> de microinteractie is aan de site toegevoegd. 
+<img src="images/javascript-microinteractie.png" width="375px" alt="screenshot JAVA"> de microinteractie is aan de site toegevoegd. 
 
 
 ### Verslag van meeting
