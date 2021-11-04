@@ -48,30 +48,6 @@ Informatiepagina
  
 </details>
 
-
-
-
-
-## Breakdownschets (week 1)
-
-<details>
-<summary>uitwerken na afloop 2e werkgroep</summary>
-
-### de hele pagina: 
-<img src="images/dummy-plaatje.jpg" width="375px" alt="breakdown van de hele pagina">
-
-### dynamisch deel (bijv menu): 
-<img src="images/dummy-plaatje.jpg" width="375px" alt="breakdown van een dynamisch deel">
-
-### wellicht nog een dynamisch deel (bijv filter): 
-<img src="images/dummy-plaatje.jpg" width="375px" alt="breakdown van nog een dynamisch deel">
-
-</details>
-
-
-
-
-
 ## Voortgang 1 (week 2)
 
 <details>
@@ -124,86 +100,11 @@ Ik ben begonnen met het implementeren van Flexbox en dat is goed gelukt. De site
 ### Verslag van meeting
 hier na afloop snel de uitkomsten van de meeting vastleggen
 
-- punt 1
-- punt 2
-- nog een punt
-- ...
+- Erg goed op weg laatste dingen nog aanvullen en responsive maken
+- microinteractie is te simpel, kijk of je iets kunt doen wat meer past bij de site
+- CSS is gestructureerder vormgegeven. 
 
 </details>
-
-
-
-
-
-## Toegankelijkheidstest (week 4)
-
-<details>
-<summary>uitwerken na test in 8e voortgang</summary>
-
-### Bevindingen
-Lijst met je bevindingen die in de test naar voren kwamen:
-- Niet alles is klikbaar wat klikbaar moet zijn. 
-
-#### Titel eerste bevinding
-Hier korte omschrijving (met indien nodig een afbeelding)
-
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
-
-
-#### Titel tweede bevinding. 
-Hier korte omschrijving (met indien nodig een afbeelding)
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
-
-
-#### Titel volgende bevinding. 
-Hier korte omschrijving (met indien nodig een afbeelding)
-
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
-
-
-#### Titel nog een bevinding. 
-Hier korte omschrijving (met indien nodig een afbeelding)
-
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
-
-</details>
-
-
-
-
-
-## Voortgang 3 (week 4)
-
-<details>
-<summary>uitwerken voor 3e voortgang</summary>
-
-### Stand van zaken
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
-
-
-### Agenda voor meeting
-samen met je groepje opstellen
-
-| student 1      | student 2          | student 3    | student 4        |
-| ---            | ---                | ---          | ---              |
-| dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-| en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-| ...            | ...                | ...          | ...              |
-
-
-### Verslag van meeting
-hier na afloop snel de uitkomsten van de meeting vastleggen
-
-- punt 1
-- punt 2
-- nog een punt
-- ...
-
-</details>
-
-
-
-
 
 ## Eindgesprek (week 5)
 
@@ -211,12 +112,37 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 <summary>uitwerken voor eindgesprek</summary>
 
 ### Stand van zaken
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+Aan het begin vond ik de lessen wat te snel gaan. Ik moest me helemaal opnieuw verdiepen in de stof en dat kostte me veel tijd. Toen ik eenmaal aan de slag ging merkte ik dat ik dingen begon te begrijpen. 
+
+In het proces heb ik achteraf wel een aantal foutjes gemaakt. Mijn HTML had weinig lijsten waardoor het responsive maken van de site moeilijker ging. Ik heb achteraf nog veel tijd moeten besteden aan veel dingen zetten in een UL. 
+
+Mijn CSS was een rommeltje. CSS is iets wat ik vanaf het begin lastig vond. Ik vond het moeilijk om elementen aan te roepen en daardoor werd mijn CSS lang en onoverzichtelijk. Het niet gebruiken van classes maakte het allemaal nog niet iets ingewikkelder. Ik heb een avond besteed aan het overzichtelijk maken hiervan en dat gaf me een stuk meer overzicht. 
+
+Nog steeds is mijn CSS lang, maar door de comments heb ik meer overzicht. 
+
+Ik heb een lange tijd aangeklooid met mijn micro-interactie. Om te beginnen met het bedenken van een micro-interactie. Ik begon met een microinteractie om het thema te veranderen. Na een voortgangsgesprek kwamen we tot de conclusie dat dat wellicht wat te simpel was en ben ik gegaan voor het opslaan van een artikel. Ik had achteraf wat meer willen spelen met Javascript maar had, hard gezegd, de tijd er niet voor. Daarom heb ik me vooral gericht op het responsive maken en een nette HTML en vormgeving. 
+
+Ik ben erg tevreden over het eindresultaat (als je dat mag zeggen?). Ik heb veel geleerd en had mezelf voorgenomen bij elke les aanwezig te zijn. Ik heb voortgangen laten zien en heb meer kennis opgedaan. 
 
 ### Screenshot(s)
 
-hier screenshot(s) van je eindresultaat
+hier screenshot(s) van je eindresultaat: de code
+<img src="images/voortganghtml-1.png" width="375px" alt="screenshot html"> HTML code -> semantisch
+<img src="images/voortganghtml-2.png" width="375px" alt="screenshot html"> HTML code -> semantisch
+<img src="images/voortgangCSS-1.png" width="375px" alt="screenshot CSS"> CSS code -> flexbox
+<img src="images/voortgangCSS-2.png" width="375px" alt="screenshot CSS"> CSS code -> mediaquery
+<img src="images/microinteractie.png" width="375px" alt="screenshot JS"> De microinteractie in javascript
 
+
+eindresultaat:
+<img src="images/phone-1.png" width="375px" alt="screenshot website phone formaat"> screenshot phone formaat
+<img src="images/phone-2.png" width="375px" alt="screenshot website phone formaat"> screenshot phone formaat
+<img src="images/tablet-1.png" width="375px" alt="screenshot website tablet formaat"> screenshot tablet formaat
+<img src="images/tablet-2.png" width="375px" alt="screenshot website tablet formaat"> screenshot tablet formaat
+<img src="images/tablet-3.png" width="375px" alt="screenshot website tablet formaat"> screenshot tablet formaat
+<img src="images/desktop-1.png" width="375px" alt="screenshot website desktop formaat"> screenshot desktop formaat
+<img src="images/desktop-2.png" width="375px" alt="screenshot website desktop formaat"> screenshot desktop formaat
+<img src="images/desktop-3.png" width="375px" alt="screenshot website desktop formaat"> screenshot desktop formaat
 </details>
 
 
@@ -241,9 +167,5 @@ Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
 9. https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Ordering_Flex_Items 
 10. https://www.collinsdictionary.com/dictionary/english/fr#:~:text=1.,abbreviation%20for%20French%20or%20%2C%20franc.&text=Fr%20is%20a%20written%20abbreviation%20for%20father%20when%20it%20is,name%20of%20a%20Catholic%20priest. 
 11. https://css-tricks.com/snippets/css/complete-guide-grid/ 
-
-
-
-
 
 </details>
